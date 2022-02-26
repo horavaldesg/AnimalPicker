@@ -9,7 +9,7 @@ public class AnimalPicker{
     public static void AskForAnimal(Scanner kb){
         System.out.println("What animal would you like to see? Dog, Cat");
         String animal = kb.next().toLowerCase();
-        switch (animal.toLowerCase()) {
+        switch (animal) {
             case "dog":
             // Art by Maija Haavisto
             System.out.println("  __      _\no\'\')}____//\n `_/      )\n (_(_/-(_/");
