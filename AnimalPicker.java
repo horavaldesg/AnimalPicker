@@ -7,7 +7,7 @@ public class AnimalPicker{
        
     }
     public static void AskForAnimal(Scanner kb){
-        System.out.println("What animal would you like to see? Dog, Cat");
+        System.out.println("What animal would you like to see? Dog, Cat, or Fish");
         String animal = kb.next().toLowerCase();
         switch (animal) {
             case "dog":
