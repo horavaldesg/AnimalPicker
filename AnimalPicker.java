@@ -17,6 +17,9 @@ public class AnimalPicker{
             case "cat":
             System.out.println(" /\\     /\\\n{  `---\'  }\n{  O   O  }\n~~>  V  <~~\n \\  \\|/  /\n  `-----\'____\n  /     \\    \\_\n {       }\\  )_\\_   _\n |  \\_/  |/ /  \\_\\_/ )\n  \\__/  /(_/     \\__/\n    (__/");
             break;
+            case "fish":
+            System.out.println(" o\no      ______/~/~/~/__           /((\n  o  // __            ====__    /_((\n o  //  @))       ))))      ===/__((\n    ))           )))))))        __((\n    \\\\     \\)     ))))    __===\\ _((\n     \\\\_______________====      \\_((\n                                 \\((");
+            break;
             default: System.out.println("Not an animal");
             AskForAnimal(kb);
                 break;
