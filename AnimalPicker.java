@@ -12,6 +12,9 @@ public class AnimalPicker{
            case "cat":
            System.out.println(animal +" art goes here");
            break;
+           default: 
+           System.out.println(animal +" is not an available Animal");
+           break;
        }
     }
 
